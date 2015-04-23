@@ -1,0 +1,20 @@
+/*TP n°2 numero par
+*Alexis Friedrich
+*17/04/2015
+*/
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a;
+	cout<<"ingrese numero"<<endl;
+	cin>>a;
+	if (a % 2 ==0)
+	{
+	cout<<"el numero es par";
+	}
+	else
+	{
+	cout<<"el numero es impar";
+	}
+}
